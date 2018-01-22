@@ -1,0 +1,103 @@
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    text-transform: uppercase; }
+
+@media (min-width: 992px) {
+    #sideNav {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh; }
+    #sideNav .navbar-brand {
+        display: flex;
+        margin: auto auto 0;
+        padding: 0.5rem; }
+    #sideNav .navbar-brand .img-profile {
+        border-radius:40%;
+
+        max-width:90%;
+        height:150px;
+        width:150px; }
+    #sideNav .navbar-collapse {
+        display: flex;
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto; }
+    #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%; }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block; }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block; } }
+main header{
+    background:#ccc;
+    color:#3a3634;
+    text-align:left;
+    -webkit-box-align:end;
+    -ms-flex-align:end;
+    align-items:flex-start;
+    -ms-flex-line-pack:distributed;
+    align-content:stretch !important;
+}
+@media(min-width:1023px){
+    main header{
+        padding:50px 300px;
+    }
+}
+main header img{
+    border-radius:50%;
+    margin:30px 0 10px;
+    max-width:80%;
+    height:auto;
+    width:250px;
+}
+main header .intro-text{
+    max-width:675px;
+    text-align:left;
+    margin-bottom:30px;
+}
+@media(min-width:1023px){
+    main header .intro-text{
+        text-align:left;
+        width:610px
+    }
+}
+main header .intro-text .skills{
+    font-size:1.15em;
+}
+section.resume-section {
+    border-bottom: 2px solid #9b9ea1;
+    padding-left:300px !important;
+    padding-right: 50px;
+}
+section.resume-section .resume-item .resume-date {
+    min-width: unset; }
+
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem; } }
+
+@media (min-width: 992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    } }
+
+.bg-primary {
+    background-color: #3a3634 !important; }
+
+.text-primary {
+    color: #37b6ae !important; }
+
+a {
+    color: #37b6ae; }
+a:hover, a:focus, a:active {
+    color: #37b6ae; }
